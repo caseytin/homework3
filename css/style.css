@@ -1,11 +1,6 @@
 /* font import */
 @import url('https://fonts.googleapis.com/css?family=Andika&display=swap');
 
-/* focused elements */
-body:focus{
-  border: 2px solid black;
-}
-
 body {
   color: black;
   font-family: 'Andika', sans-serif;
@@ -43,6 +38,10 @@ a {
   color: #B21F50;
   text-decoration-style: wavy;
   text-decoration-line: underline;
+}
+
+a:focus{
+  border: 2px solid black;
 }
 
 table {
