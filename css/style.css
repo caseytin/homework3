@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Andika&display=swap');
 
 /* focused elements */
-:focus{
+body:focus{
   border: 2px solid black;
 }
 
@@ -46,29 +46,29 @@ a {
 }
 
 table {
-    border: 2px solid black;
-    border-radius: 15px;
-    border-spacing: 0px;
-    border-collapse: separate;
-    margin-left: auto;
-    margin-right: auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 thead tr:first-child th.colhead:first-child {
-		border-top-left-radius: 15px;
-	}
+	border-top-left-radius: 15px;
+}
 	
 thead tr:first-child th.colhead:last-child {
-		border-top-right-radius: 15px;
-	}
+	border-top-right-radius: 15px;
+}
 	
 thead tr:last-child td:first-child {
-		border-bottom-left-radius: 15px;
-	}
+	border-bottom-left-radius: 15px;
+}
 	
 thead tr:last-child td:last-child {
-		border-bottom-right-radius: 15px;
-	}
+	border-bottom-right-radius: 15px;
+}
 
 .colhead {
   background-color: #7e0820;
@@ -96,9 +96,6 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background: #D1D1D1;
 }
-
-/* table rows */
-tr {}
 
 tr:hover {
   background-color:rgba(126,8,32, 0.5);
